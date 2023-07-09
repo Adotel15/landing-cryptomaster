@@ -108,14 +108,14 @@ const Home = () => {
               {address !== "" ? (
                 <>
                   <h2>Balance:</h2>
-                  <p>{balance} My Token</p>
+                  <p>{balance} SBT</p>
                 </>
               ) : (
                 <h2>Conecta tu wallet para ver tu balance!</h2>
               )}
             </div>
             <form className="form" onSubmit={onSubmit}>
-              <h2>Transferir My Token:</h2>
+              <h2>Transferir SBT:</h2>
               <input
                 className="input"
                 type="text"
@@ -135,7 +135,7 @@ const Home = () => {
               <input className="submit" type="submit" value="Enviar" />
             </form>
             <div className="getTokens">
-              <h2>Consigue tus primers 200 My Token totalmente gratis!</h2>
+              <h2>Consigue tus primers 200 SBT totalmente gratis!</h2>
               <button onClick={getTokens}>Conseguir Tokens</button>
             </div>
           </div>

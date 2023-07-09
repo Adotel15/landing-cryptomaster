@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <NavbarWrapper>
       <div>
-        <h2>My Token</h2>
+        <h2>Solidity Bonus Token</h2>
       </div>
       <div>
         {address ? (
